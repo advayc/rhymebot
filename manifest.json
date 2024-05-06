@@ -1,0 +1,10 @@
+{
+    "name": "Rhymebot",
+    "description": "google chrome extention that shows rhyming word",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "main.html",
+      "default_icon": "avatar.png"
+    }
+  }
