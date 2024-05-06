@@ -1,6 +1,12 @@
-function getrhyme(event) {
-    event.preventDefault();
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('rhymeForm');
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        getRhyme(event);
+    });
+});
 
+function getRhyme(event) {
     const word = event.target.word.value;
     fetch('https://api.api-ninjas.com/v1/rhyme?word=' + word, {
         method: 'GET',
@@ -15,7 +21,7 @@ function getrhyme(event) {
         return response.json();
     })
     .then(result => {
-        document.getElementById('result').innerHTML = JSON.stringify(result);
+        document.getElementById('result').innerHTML = 'Words that rhyme with  ' + word + JSON.stringify(result);
     })
     .catch(error => {
         console.error('Error:', error);
