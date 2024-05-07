@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault();
         getRhyme(event);
     });
-    const reset = document.getElementById('reset');
-    reset.addEventListener('reset', function() {
+    const resetbutton = document.getElementById('reset');
+    resetbutton.addEventListener('click', function() {
         reset()
     });
 });
@@ -37,7 +37,7 @@ function getRhyme(event) {
 }
 
 function reset() {
-    word = ''
-    result = []
-    res=''
+    document.getElementById('caption').innerHTML = '';
+    document.getElementById('result').innerHTML = '';
+
 }
