@@ -1,14 +1,14 @@
 {
-    "name": "Rhymebot",
-    "description": "Find the perfect words to elevate your writing and captivate your audience, all at the click of a button.",
-    "version": "1.0",
-    "manifest_version": 3,
+  "name": "Rhymebot",
+  "description": "Find the perfect words to elevate your writing and captivate your audience, all at the click of a button.",
+  "version": "1.0",
+  "manifest_version": 3,
 
-      "icons": {
-        "128": "images/blue.png"
-      },
-    "action": {
-      "default_popup": "main/main.html",
-      "default_icon": "images/blue.png"
-    }
+    "icons": {
+      "128": "images/blue.png"
+    },
+  "action": {
+    "default_popup": "main/main.html",
+    "default_icon": "images/blue.png"
   }
+}
