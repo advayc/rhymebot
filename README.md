@@ -2,7 +2,7 @@
 
 Rhymebot: Unleash your creativity with the ultimate rhyming companion. Find the perfect words to elevate your writing and captivate your audience, all at the click of a button. 
 
-Plus, with its offline capabilities, it's the convenient tool for poets to craft their masterpieces anytime, anywhere.
+it's the convenient tool for poets to craft their masterpieces anytime, anywhere.
 
 ## Contributing
 

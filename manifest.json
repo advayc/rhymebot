@@ -5,10 +5,10 @@
     "manifest_version": 3,
 
       "icons": {
-        "128": "images/green.png"
+        "128": "images/blue.png"
       },
     "action": {
       "default_popup": "main.html",
-      "default_icon": "images/icon-128.png"
+      "default_icon": "images/blue.png"
     }
   }
