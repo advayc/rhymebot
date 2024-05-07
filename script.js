@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('rhymeForm');
     form.addEventListener('submit', function(event) {
+        reset()
         event.preventDefault();
         getRhyme(event);
     });
