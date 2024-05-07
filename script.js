@@ -11,7 +11,7 @@ function getRhyme(event) {
     fetch('https://api.api-ninjas.com/v1/rhyme?word=' + word, {
         method: 'GET',
         headers: {
-            'X-Api-Key': 'm3SDZeyCihODt9ZIilin9w==1oOPcL8qRB8KY5uU'
+            'X-Api-Key': 'YOUR_API_KEY'
         },
     })
     .then(response => {
