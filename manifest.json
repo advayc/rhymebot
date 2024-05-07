@@ -1,11 +1,11 @@
 {
     "name": "Rhymebot",
-    "description": "google chrome extension that shows rhyming word",
+    "description": "Find the perfect words to elevate your writing and captivate your audience, all at the click of a button.",
     "version": "1.0",
     "manifest_version": 3,
 
       "icons": {
-        "128": "images/icon-128.png"
+        "128": "images/green.png"
       },
     "action": {
       "default_popup": "main.html",
