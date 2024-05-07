@@ -30,8 +30,3 @@ Contributions to Rhymebot are welcome! If you have any ideas, bug reports, or fe
 7. The extension will display a list of words that rhyme with the word you entered.
 
 Remember to keep your API key secret to prevent unauthorized usage.
-
-
-## License
-
-Rhymebot is licensed under the [MIT License](https://opensource.org/licenses/MIT).
