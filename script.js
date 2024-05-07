@@ -21,7 +21,11 @@ function getRhyme(event) {
         return response.json();
     })
     .then(result => {
-        document.getElementById('result').innerHTML = 'Words that rhyme with the word: ' + word + JSON.stringify(result);
+        document.getElementById('caption').innerHTML = 'Words that rhyme with the word: "'+ word + '" are....'
+        let res = document.getElementById('result');
+        for (var i=0; i < result.length; i++){
+            res.innerHTML += result[i] + '<br>';
+        }
     })
     .catch(error => {
         console.error('Error:', error);
