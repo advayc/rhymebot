@@ -6,7 +6,7 @@ Rhymebot is a Google Chrome extension that helps you find rhyming words for a gi
 
 Contributions to Rhymebot are welcome! If you have any ideas, bug reports, or feature requests, please open an issue on the [GitHub repository](https://github.com/your-username/rhymebot).
 
-1. Clone the repository to your local machine using `git clone https://github.com/your-username/rhymebot.git`.
+1. Clone the repository to your local machine using `git clone https://github.com/advayc/rhymebot.git`.
 
 2. First, you need to get an API key from [API Ninjas](https://api-ninjas.com/profile). This key is used to fetch rhyming words from their API.
 
