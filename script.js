@@ -4,6 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault();
         getRhyme(event);
     });
+    const reset = document.getElementById('reset');
+    reset.addEventListener('reset', function() {
+        reset()
+    });
 });
 
 function getRhyme(event) {
@@ -30,4 +34,10 @@ function getRhyme(event) {
     .catch(error => {
         console.error('Error:', error);
     });
+}
+
+function reset() {
+    word = ''
+    result = []
+    res=''
 }
