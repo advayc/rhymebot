@@ -1,5 +1,12 @@
 # Rhymebot
 
+![red](https://github.com/advayc/rhymebot/assets/134825013/c594783c-b256-4612-ac50-596715609ef8)
+![orange](https://github.com/advayc/rhymebot/assets/134825013/7e39f2a1-a326-4687-80b3-078196f5396a)
+![yellow](https://github.com/advayc/rhymebot/assets/134825013/9f0a493f-f046-47e7-baa3-94f36dbb829f)
+![green](https://github.com/advayc/rhymebot/assets/134825013/e44ae708-71a6-429f-969d-f227a81e3398)
+![blue](https://github.com/advayc/rhymebot/assets/134825013/0c241f75-be30-42b4-80b2-75d58c253e50)
+![purple](https://github.com/advayc/rhymebot/assets/134825013/888c293a-23f0-4e51-84cb-af1a64e92da4)
+
 Rhymebot: Unleash your creativity with the ultimate rhyming companion. Find the perfect words to elevate your writing and captivate your audience, all at the click of a button. 
 
 Plus, with its offline capabilities, it's the convenient tool for poets to craft their masterpieces anytime, anywhere.
