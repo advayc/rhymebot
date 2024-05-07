@@ -11,7 +11,7 @@ function getRhyme(event) {
     fetch('https://api.api-ninjas.com/v1/rhyme?word=' + word, {
         method: 'GET',
         headers: {
-            'X-Api-Key': 'YOUR_API_KEY'
+            'X-Api-Key': 'm3SDZeyCihODt9ZIilin9w==1oOPcL8qRB8KY5uU'
         },
     })
     .then(response => {
@@ -21,7 +21,7 @@ function getRhyme(event) {
         return response.json();
     })
     .then(result => {
-        document.getElementById('result').innerHTML = 'Words that rhyme with  ' + word + JSON.stringify(result);
+        document.getElementById('result').innerHTML = 'Words that rhyme with the word: ' + word + JSON.stringify(result);
     })
     .catch(error => {
         console.error('Error:', error);
