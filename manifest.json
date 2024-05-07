@@ -3,8 +3,12 @@
     "description": "google chrome extension that shows rhyming word",
     "version": "1.0",
     "manifest_version": 3,
+
+      "icons": {
+        "128": "images/icon-128.png"
+      },
     "action": {
       "default_popup": "main.html",
-      "default_icon": "avatar.png"
+      "default_icon": "images/icon-128.png"
     }
   }
