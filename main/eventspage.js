@@ -3,7 +3,7 @@ chrome.contextMenus.onClicked.addListener(genericOnClick);
 function genericOnClick(info) {
   switch (info.menuItemId) {
     case 'selection':
-      let selectedWord = ''; // find selected word 
+      let selectedWord = info.selectionText; // find selected word 
       break;
   }
 }
@@ -26,7 +26,6 @@ chrome.runtime.onInstalled.addListener(function () {
       id: context
     });
   }
-
 
   // Intentionally create an invalid item, to show off error checking in the
   // create callback.
