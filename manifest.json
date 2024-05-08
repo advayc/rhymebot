@@ -1,12 +1,23 @@
 {
   "name": "Rhymebot",
   "description": "Find the perfect words to elevate your writing and captivate your audience, all at the click of a button.",
-  "version": "1.0",
+  "version": "0.7",
   "manifest_version": 3,
+  
+  "background": {
+    "service_worker": "main/eventspage.js"
+  },
 
-    "icons": {
-      "128": "images/blue.png"
-    },
+  "permissions": [
+    "contextMenus"
+  ],
+
+  "icons": {
+    "16": "images/red.png",
+    "48": "images/green.png",
+    "128": "images/blue.png"
+  },
+  
   "action": {
     "default_popup": "main/main.html",
     "default_icon": "images/blue.png"
