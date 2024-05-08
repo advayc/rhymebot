@@ -19,7 +19,7 @@ Contributions to Rhymebot are welcome! If you have any ideas, bug reports, or fe
 
 2. First, you need to get an API key from [API Ninjas](https://api-ninjas.com/profile). This key is used to fetch rhyming words from their API.
 
-3. Once you have your API key, open the `script.js` file in the root directory of the project. Find the line that contains `'X-Api-Key': 'YOUR_API_KEY'` and replace `'YOUR_API_KEY'` with the API key you got from API Ninjas.
+3. Once you have your API key, open the `script.js` file in the root directory of the project. Find the line that contains `'X-Api-Key': 'API_KEY'` and replace `'API_KEY'` with the API key you got from API Ninjas.
 
 4. Save the `script.js` file and load the extension into your Google Chrome browser. To do this, navigate to `chrome://extensions/` in your browser, enable "Developer mode", click "Load unpacked", and select the root directory of the Rhymebot project.
 

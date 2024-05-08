@@ -2,18 +2,31 @@ chrome.contextMenus.onClicked.addListener(genericOnClick);
 
 function genericOnClick(info) {
   switch (info.menuItemId) {
-    case 'getword':
-      console.log('test');
+    case 'selection':
+      let selectedWord = ''; // find selected word 
       break;
-    default:
-      console.log('Standard context menu item clicked.');
   }
 }
 chrome.runtime.onInstalled.addListener(function () {
-  chrome.contextMenus.create({
-    title: 'Get Rhyming Words',
-    id: 'getword'
-  });
+    let contexts = [
+        'page',
+        'selection',
+        'link',
+        'editable',
+        'image',
+        'video',
+        'audio'
+      ];
+  for (let i = 0; i < contexts.length; i++) {
+    let context = contexts[i];
+    let title = "Click to get Rhymes for ";
+    chrome.contextMenus.create({
+      title: title,
+      contexts: [context],
+      id: context
+    });
+  }
+
 
   // Intentionally create an invalid item, to show off error checking in the
   // create callback.
