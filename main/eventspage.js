@@ -4,19 +4,27 @@ function genericOnClick(info) {
   switch (info.menuItemId) {
     case 'selection':
       let selectedWord = info.selectionText; // find selected word 
+      console.log('Selected Word:', selectedWord);
+      break;
+    case 'link':
+      console.log('Clicked on link');
+      break;
+    default:
+      console.log('Unknown context menu item clicked');
       break;
   }
 }
+
 chrome.runtime.onInstalled.addListener(function () {
-    let contexts = [
-        'page',
-        'selection',
-        'link',
-        'editable',
-        'image',
-        'video',
-        'audio'
-      ];
+  let contexts = [
+    'page',
+    'selection',
+    'link',
+    'editable',
+    'image',
+    'video',
+    'audio'
+  ];
   for (let i = 0; i < contexts.length; i++) {
     let context = contexts[i];
     let title = "Click to get Rhymes for ";
