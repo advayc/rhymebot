@@ -1,5 +1,5 @@
 # Rhymebot
-***
+
 ![red](https://github.com/advayc/rhymebot/assets/134825013/c594783c-b256-4612-ac50-596715609ef8)
 ![orange](https://github.com/advayc/rhymebot/assets/134825013/7e39f2a1-a326-4687-80b3-078196f5396a)
 ![yellow](https://github.com/advayc/rhymebot/assets/134825013/9f0a493f-f046-47e7-baa3-94f36dbb829f)
