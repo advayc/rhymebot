@@ -37,8 +37,12 @@ function getRhyme(event) {
     });
 }
 
-function reset() {
-    document.getElementById('caption').innerHTML = '';
-    document.getElementById('result').innerHTML = '';
-}
-
+chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
+  if (message.type === 'rhymeData') {
+    document.getElementById('caption').innerHTML = 'Words that rhyme with the word: "'+ message.word + '" are....';
+    let res = document.getElementById('result');
+    for (var i=0; i < message.rhymes.length; i++){
+        res.innerHTML += message.rhymes[i] + '<br>';
+    }  
+  }
+});
