@@ -40,7 +40,7 @@ function genericOnClick(info) {
 function RHYME(word) {
   fetch('https://api.api-ninjas.com/v1/rhyme?word=' + word, {
     headers: {
-      'X-Api-Key': 'API_KEY'
+      'X-Api-Key': 'API__KEY'
     }
   })
   .then(response => {
