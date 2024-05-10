@@ -5,6 +5,7 @@ function genericOnClick(info) {
     case 'selection':
       let selectedWord = info.selectionText; // find selected word 
       console.log('Selected Word:', selectedWord);
+      RHYME(selectedWord)
       break;
     case 'link':
       console.log('Clicked on link');
@@ -35,8 +36,6 @@ chrome.runtime.onInstalled.addListener(function () {
     });
   }
 
-  // Intentionally create an invalid item, to show off error checking in the
-  // create callback.
   chrome.contextMenus.create(
     { title: 'Oops', parentId: 999, id: 'errorItem' },
     function () {
@@ -46,3 +45,26 @@ chrome.runtime.onInstalled.addListener(function () {
     }
   );
 });
+
+function RHYME(word) {
+  fetch('https://api.api-ninjas.com/v1/rhyme?word=' + word, {
+    headers: {
+      'X-Api-Key': 'API_KEY'
+    }
+  })
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return response.json();
+  })
+  .then(result => {
+    for (var i=0; i < result.length; i++){
+      console.log(result[i]);
+  }
+
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+}

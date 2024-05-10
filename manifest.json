@@ -19,6 +19,7 @@
   },
   
   "action": {
+    "default_title": "Click Me",
     "default_popup": "main/main.html",
     "default_icon": "images/blue.png"
   }
