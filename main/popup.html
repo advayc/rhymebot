@@ -2,18 +2,6 @@
 <body>
   <div id="caption"></div>
   <div id="result"></div>
-
-  <script>
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    const word = urlParams.get('word');
-    const rhymes = JSON.parse(urlParams.get('rhymes'));
-
-    document.getElementById('caption').innerHTML = `Words that rhyme with the word: "${word}" are...`;
-    const res = document.getElementById('result');
-    rhymes.forEach(rhyme => {
-      res.innerHTML += `${rhyme}<br>`;
-    });
-  </script>
+  <script src="eventspage.js"></script>
 </body>
 </html>
