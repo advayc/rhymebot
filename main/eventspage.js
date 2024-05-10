@@ -50,16 +50,17 @@ function RHYME(word) {
     return response.json();
   })
   .then(result => {
+    const params = {
+      word: word,
+      rhymes: result
+    };
+    const queryString = Object.keys(params).map(key => key + '=' + encodeURIComponent(params[key])).join('&');
     chrome.windows.create({
       type: 'popup',
-      url: chrome.runtime.getURL('main/main.html'), 
+      url: chrome.runtime.getURL('main/popup.html') + '?' + queryString,
       width: 400,
       height: 300,
       focused: true
-    }, function(window) {
-      chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-        chrome.tabs.sendMessage(tabs[0].id, {type: 'rhymeData', word: word, rhymes: result});
-      });
     });
   })
   .catch(error => {
