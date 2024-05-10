@@ -7,7 +7,7 @@
 ![blue](https://github.com/advayc/rhymebot/assets/134825013/0c241f75-be30-42b4-80b2-75d58c253e50)
 ![purple](https://github.com/advayc/rhymebot/assets/134825013/888c293a-23f0-4e51-84cb-af1a64e92da4)
 ***
-Rhymebot: Unleash your creativity with the ultimate rhyming companion. Find the perfect words to elevate your writing and captivate your audience, all at the click of a button. 
+**Rhymebot:** Unleash your creativity with the ultimate rhyming companion. Find the perfect words to elevate your writing and captivate your audience, all at the click of a button. 
 
 it's the convenient tool for poets to craft their masterpieces anytime, anywhere.
 
