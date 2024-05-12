@@ -1,5 +1,5 @@
 # Rhymebot
-![blue_banner](https://github.com/advayc/rhymebot/assets/134825013/f9b1fec3-5237-4731-b4a5-418fd8efc7c1)
+![blue_banner](https://github.com/advayc/rhymebot/assets/134825013/c6c257f7-9cdd-402d-be0c-7d5be035a4ce)
 
 ***
 **Rhymebot:** Elevate your writing with the ultimate rhyming, synonym, and antonym companion. Craft masterpieces anytime, anywhere with ease.
