@@ -22,7 +22,7 @@ Contributions to Rhymebot are welcome! If you have any ideas, bug reports, or fe
 
 7. The extension will display a list of words that rhyme with the word you entered, as well as synonyms and antonyms.
 
-Remember to keep your API key secret to prevent unauthorized usage.
+Remember to keep your API key secret to prevent unauthorized usage!
 
 ***
 ![red](https://github.com/advayc/rhymebot/assets/134825013/c594783c-b256-4612-ac50-596715609ef8)
